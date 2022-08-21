@@ -1,0 +1,24 @@
+@use "../abstracts/variables" as *;
+
+p {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-medium);
+    line-height: 1.4375rem;
+    color: var(--clr-primary-100);
+}
+
+.heading-s {
+    font-size: var(--fs-200);
+    font-weight: var(--fw-medium);
+    line-height: 0.9144rem;
+    letter-spacing: 0.3125em;
+    color: var(--clr-primary-100);
+}
+
+.heading-l {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-600);
+    font-weight: var(--fw-bold);
+    line-height: 2rem;
+}

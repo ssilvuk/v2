@@ -1,0 +1,47 @@
+.button {
+    width: 18.5rem;
+    height: 3rem;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--ff-primary);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-bold);
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: var(--clr-accent-500);
+
+    &:hover {
+        background-color: var(--clr-accent-600);
+    }
+
+    img {
+        height: 16px;
+        width: auto;
+    }
+
+    a {
+        padding: 3em 6em;
+        display: flex;
+        align-items: center;
+        gap: 0.7256em;
+
+        color: var(--clr-accent-100);
+    }
+}
+
+@media (min-width: 90em) {
+    .button {
+        width: 14.75rem;
+
+        a {
+            padding: 3em 4em;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+:root {
+    // COLORS
+    --clr-primary-100: hsl(228, 12%, 48%);
+    --clr-primary-700: #1c232b;
+
+    --clr-background-400: hsl(30, 35%, 91%);
+
+    --clr-accent-100: hsl(0, 0%, 100%);
+    --clr-accent-500: hsl(158, 36%, 37%);
+    --clr-accent-600: hsl(158, 42%, 18%);
+
+    // FONTS
+
+    // Font families
+    --ff-primary: "Montserrat", sans-serif;
+    --ff-secondary: "Fraunces", serif;
+
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-secondary);
+
+    //Font sizes
+    --fs-200: 0.75rem; //12px
+    --fs-300: 0.8012rem; //13px
+    --fs-400: 0.875rem; //14px
+    --fs-500: 1.5rem; //24px
+    --fs-600: 2rem; //32px
+
+    //Font weights
+    --fw-medium: 500;
+    --fw-bold: 700;
+}
